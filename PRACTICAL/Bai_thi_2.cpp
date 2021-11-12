@@ -7,7 +7,7 @@ float average (int arr[], int number) {
         sum += arr[i];
         count++;
     }
-    average = sum / count;
+    average = (float)sum / count;
     return  average;
 }
 
